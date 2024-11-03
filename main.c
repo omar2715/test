@@ -21,9 +21,9 @@ void main()
     add(1);
     add(2);
     add(3);
-    add(4);
+    add(45);
     printf("Data = %d\n",Tail->previous->previous->data);
-    printf("Data = %d\n" , del(4));
+
 
 }
 
@@ -87,7 +87,7 @@ int getByIndex( int index )
     return ptr->data ;
 }
 
-int del( int index )
+/*int del( int index )
 {
     struct person* ptr;
     if(index < 1)
@@ -125,7 +125,7 @@ int del( int index )
         {
             ptr = Tail;
             Tail=ptr->previous;
-            free(ptr)
+            free(ptr);
             return;
         }
         else
@@ -141,4 +141,4 @@ int del( int index )
 
         }
     }
-}
+}*/

@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+void fn1(){
+
+printf("Hello Omar");
+
+}
